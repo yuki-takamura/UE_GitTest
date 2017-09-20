@@ -270,3 +270,25 @@ LogInit: Object subsystem initialized
 [2017.09.20-03.10.01:371][214]SourceControl:   (use "git add <file>..." to include in what will be committed)
 [2017.09.20-03.10.01:371][214]SourceControl: 	GitTest/
 [2017.09.20-03.10.01:371][214]SourceControl: nothing added to commit but untracked files present (use "git add" to track)
+[2017.09.20-03.13.17:146][298]SourceControl: fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2017.09.20-03.13.40:613][648]SourceControl: fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2017.09.20-03.13.48:529][648]LogSlate: Took 0.001450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-03.13.49:036][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.20-03.13.49:103][648]LogSavePackage: Save=39.14ms
+[2017.09.20-03.13.49:103][648]LogSavePackage: Moving '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Saved/NewMap092C403C49655879241C588976E31BA8.tmp' to '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap.umap'
+[2017.09.20-03.13.49:113][648]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap.umap
+[2017.09.20-03.13.51:800][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.20-03.13.51:882][648]LogSavePackage: Save=73.61ms
+[2017.09.20-03.13.51:882][648]LogSavePackage: Moving '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Saved/NewMap_BuiltData4DC4FD9A4CDEB5030499408A30FE7974.tmp' to '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap_BuiltData.uasset'
+[2017.09.20-03.13.51:888][648]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap_BuiltData.uasset
+[2017.09.20-03.13.52:251][648]LogFileHelpers: Saving map 'NewMap' took 4.236
+[2017.09.20-03.13.52:464][652]LogSlate: Took 0.003001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.20-03.13.52:684][663]SourceControl: fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2017.09.20-03.14.02:098][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.20-03.14.02:170][987]LogSavePackage: Save=30.73ms
+[2017.09.20-03.14.02:170][987]LogSavePackage: Moving '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Saved/NewMap3B59DAC249EDE5896C8A2DB99389B175.tmp' to '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap.umap'
+[2017.09.20-03.14.02:177][987]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap.umap
+[2017.09.20-03.14.02:372][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap_BuiltData.uasset" SILENT=true
+[2017.09.20-03.14.02:400][987]LogSavePackage: Save=15.33ms
+[2017.09.20-03.14.02:400][987]LogSavePackage: Moving '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Saved/NewMap_BuiltData5673EB5241AC7011DC626B8A1C993EC3.tmp' to '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap_BuiltData.uasset'
+[2017.09.20-03.14.02:407][987]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/NewMap_BuiltData.uasset
