@@ -1,12 +1,12 @@
-﻿Log file open, 09/20/17 13:37:48
+﻿Log file open, 09/21/17 21:19:08
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: GitTest
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1644786998) SRandInit(-1644786998).
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 7.145127
+LogInit: Display: RandInit(-1637770608) SRandInit(-1637770608).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.578214
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -78,7 +78,6 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogHMD: Failed initializing OVRPlugin 1.15.0
 LogInit: Build: ++UE4+Release-4.17-CL-3586342
 LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
 LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
@@ -109,896 +108,514 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.20-04.37.53:235][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.20-04.37.53:235][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.20-04.37.53:353][  0]LogInit: Computer: MSK-Z18
-[2017.09.20-04.37.53:353][  0]LogInit: User: game
-[2017.09.20-04.37.53:353][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.09.20-04.37.53:353][  0]LogInit: High frequency timer resolution =3.418056 MHz
-[2017.09.20-04.37.53:353][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.09.20-04.37.53:353][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.20-04.37.53:353][  0]LogMemory: Process Physical Memory: 284.33 MB used, 284.33 MB peak
-[2017.09.20-04.37.53:353][  0]LogMemory: Process Virtual Memory: 286.11 MB used, 286.11 MB peak
-[2017.09.20-04.37.53:353][  0]LogMemory: Physical Memory: 4686.85 MB used,  3392.71 MB free, 8079.55 MB total
-[2017.09.20-04.37.53:353][  0]LogMemory: Virtual Memory: 687.77 MB used,  3392.71 MB free, 8388608.00 MB total
-[2017.09.20-04.37.55:432][  0]LogInit: Using OS detected language (ja-JP).
-[2017.09.20-04.37.55:432][  0]LogInit: Using OS detected locale (ja-JP).
-[2017.09.20-04.37.55:765][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2017.09.20-04.37.56:751][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using IMM (Google 日本語入力 IMM32 モジュー).
-[2017.09.20-04.37.59:790][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.20-04.37.59:831][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2017.09.20-04.37.59:831][  0]LogD3D11RHI:       4011/0/3783 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.09.20-04.37.59:956][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
-[2017.09.20-04.37.59:956][  0]LogD3D11RHI:       64/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.09.20-04.37.59:956][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.20-04.37.59:967][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.20-04.37.59:967][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.20-04.37.59:967][  0]LogWindows: EnumDisplayDevices:
-[2017.09.20-04.38.00:039][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2017.09.20-04.38.00:040][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
-[2017.09.20-04.38.00:040][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.09.20-04.38.00:041][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.09.20-04.38.00:041][  0]LogWindows:    4. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2017.09.20-04.38.00:041][  0]LogWindows:    5. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2017.09.20-04.38.00:042][  0]LogWindows:    6. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2017.09.20-04.38.00:042][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
-[2017.09.20-04.38.00:042][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.09.20-04.38.00:042][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.09.20-04.38.00:043][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.09.20-04.38.00:043][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2017.09.20-04.38.00:043][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
-[2017.09.20-04.38.00:043][  0]LogD3D11RHI:      Driver Date: 2-9-2017
-[2017.09.20-04.38.00:043][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.20-04.38.00:108][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.20-04.38.00:499][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.09.20-04.38.00:860][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Intermediate/Shaders/WorkingDirectory/10872/).
-[2017.09.20-04.38.00:860][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/game/AppData/Local/Temp/UnrealShaderWorkingDir/607356FA44AED010070259B2D95D32C3/'.
-[2017.09.20-04.38.00:862][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.20-04.38.06:764][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.20-04.38.06:864][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.20-04.38.06:966][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.20-04.38.07:054][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.20-04.38.07:156][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.20-04.38.07:245][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.20-04.38.07:361][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.20-04.38.07:449][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.20-04.38.07:531][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.20-04.38.07:636][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.20-04.38.07:758][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.20-04.38.07:935][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.20-04.38.08:178][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.20-04.38.08:337][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.20-04.38.08:464][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.20-04.38.08:727][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.20-04.38.08:727][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.20-04.38.08:879][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.20-04.38.09:235][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.20-04.38.09:312][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.20-04.38.09:447][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.20-04.38.09:540][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.20-04.38.09:639][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.20-04.38.09:761][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.20-04.38.09:762][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.20-04.38.12:020][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.20-04.38.12:020][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
-[2017.09.20-04.38.12:020][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.20-04.38.12:020][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.20-04.38.12:020][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.20-04.38.12:020][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.20-04.38.12:074][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.20-04.38.12:086][  0]LogDerivedDataCache: Using Local data cache path C:/Users/game/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.20-04.38.12:160][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.20-04.38.12:235][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.20-04.38.12:301][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.20-04.38.12:313][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.20-04.38.21:067][  0]LogAssetRegistry: FAssetRegistry took 0.0343 seconds to start up
-[2017.09.20-04.38.24:917][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.20-04.38.25:534][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.20-04.38.32:175][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.20-04.38.32:578][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.20-04.38.32:643][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.20-04.38.32:643][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.20-04.38.32:643][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.20-04.38.32:643][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.20-04.38.44:438][  0]LogNetVersion: GitTest , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3232388464)
-[2017.09.20-04.38.49:160][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.178932 seconds
-[2017.09.20-04.38.49:206][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.20-04.38.49:206][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.09.20-04.38.49:206][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.20-04.38.49:402][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.20-04.39.26:221][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.20-04.39.26:309][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.20-04.39.28:748][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.20-04.39.30:033][  0]SourceControl: ソースコントロールは無効です
-[2017.09.20-04.39.30:033][  0]SourceControl: ソースコントロールは無効です
-[2017.09.20-04.39.30:187][  0]SourceControl: ソースコントロールは無効です
-[2017.09.20-04.39.30:364][  0]SourceControl: ソースコントロールは無効です
-[2017.09.20-04.39.32:393][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.20-04.39.33:111][  0]LogOcInput: OculusInput pre-init called
-[2017.09.20-04.39.34:216][  0]LogEngine: Initializing Engine...
-[2017.09.20-04.39.34:320][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.20-04.39.35:315][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.20-04.39.35:315][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.20-04.39.36:031][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.20-04.39.36:176][  0]LogInit: XAudio2 using 'スピーカー (2- High Definition Audio デバイス)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.20-04.39.36:227][  0]LogInit: FAudioDevice initialized.
-[2017.09.20-04.39.36:345][  0]LogDerivedDataCache: Saved boot cache 0.12s 93MB C:/Users/game/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.20-04.39.36:365][  0]LogInit: Texture streaming: Enabled
-[2017.09.20-04.39.36:804][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.20-04.39.37:836][  0]LogInit: Transaction tracking system initialized
-[2017.09.20-04.39.39:078][  0]BlueprintLog: New page: エディタの読み込み
-[2017.09.20-04.39.42:714][  0]LocalizationService: ローカライズのサービスが無効になりました
-[2017.09.20-04.39.45:019][  0]LogConsoleResponse: Display: 
-[2017.09.20-04.39.46:673][  0]LogFileCache: Scanning file cache for directory 'C:/Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/' took 0.01s
-[2017.09.20-04.39.46:673][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.20-04.39.46:680][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.20-04.39.46:742][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.20-04.39.51:173][  0]SourceControl: ソースコントロールは無効です
-[2017.09.20-04.39.51:210][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.20-04.39.51:232][  0]LightingResults: New page: ライティングのビルド
-[2017.09.20-04.39.51:444][  0]MapCheck: New page: マップをチェック
-[2017.09.20-04.39.51:444][  0]LightingResults: New page: <何も選択されていません>
-[2017.09.20-04.39.53:099][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.09.20-04.39.53:496][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.20-04.39.53:557][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.20-04.39.53:726][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 169.15ミリ秒かかりました。
-[2017.09.20-04.39.53:727][  0]LogFileHelpers: Loading map 'Template_Default' took 2.537
-[2017.09.20-04.39.55:233][  0]LogCollectionManager: Loaded 0 collections in 0.001160 seconds
-[2017.09.20-04.39.55:640][  0]LogFileCache: Scanning file cache for directory 'C:/Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Collections/' took 0.01s
-[2017.09.20-04.39.55:640][  0]LogFileCache: Scanning file cache for directory 'C:/Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Developers/game/Collections/' took 0.01s
-[2017.09.20-04.39.55:640][  0]LogFileCache: Scanning file cache for directory 'C:/Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Collections/' took 0.01s
-[2017.09.20-04.39.55:641][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.09.20-04.39.55:662][  0]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2386 classes and 500 folders.
-[2017.09.20-04.39.55:920][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2017.09.20-04.39.56:919][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2017.09.20-04.39.57:126][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2017.09.20-04.39.58:047][  0]LogSlate: Took 0.013934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.20-04.39.58:090][  0]LogSlate: Took 0.041229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2017.09.20-04.39.58:127][  0]LogSlate: Took 0.017563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.20-04.39.58:216][  0]LogSlate: Took 0.013175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.20-04.39.58:735][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.09.20-04.39.59:769][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.09.20-04.39.59:769][  0]LogLoad: (Engine Initialization) Total time: 149.78 seconds
-[2017.09.20-04.39.59:769][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.20-04.39.59:769][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.09.20-04.39.59:769][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.09.20-04.39.59:863][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.20-04.40.00:086][  2]LogAssetRegistry: Asset discovery search completed in 99.0375 seconds
-[2017.09.20-04.40.00:090][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2017.09.20-04.40.00:090][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000092 seconds (updated 0 objects)
-[2017.09.20-04.40.04:057][456]LogSlate: Took 0.015910 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.20-04.40.44:827][932]LogTemp: Repeating last play command: 選択ビューポート
-[2017.09.20-04.40.44:859][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-04.40.44:905][932]PIE: New page: PIEセッション: Untitled_1 (2017/09/20 22:40:44)
-[2017.09.20-04.40.44:905][932]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2017.09.20-04.40.44:945][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040289s)
-[2017.09.20-04.40.44:947][932]LogAIModule: Creating AISystem for world Untitled_1
-[2017.09.20-04.40.44:947][932]LogPlayLevel: PIE: World Init took: (0.001477s)
-[2017.09.20-04.40.44:947][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.042201s)
-[2017.09.20-04.40.44:982][932]LogInit: XAudio2 using 'スピーカー (2- High Definition Audio デバイス)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.20-04.40.45:001][932]LogInit: FAudioDevice initialized.
-[2017.09.20-04.40.45:062][932]LogLoad: Game class is 'GameModeBase'
-[2017.09.20-04.40.45:104][932]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.20-13.40.45
-[2017.09.20-04.40.45:123][932]LogWorld: Bringing up level for play took: 0.020908
-[2017.09.20-04.40.45:384][932]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2017.09.20-04.40.45:443][932]PIE: /Temp/UEDPIE_0_Untitled_1 1.349のプレイ イン エディタの開始時間
-[2017.09.20-04.46.48:401][355]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.20-04.47.52:970][997]LogAIModule: Creating AISystem for world NewMap
-[2017.09.20-04.47.53:031][997]Cmd: MAP LOAD FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.20-04.47.53:031][997]LightingResults: New page: ライティングのビルド
-[2017.09.20-04.47.53:032][997]LoadErrors: New page: マップをロード中: NewMap.umap
-[2017.09.20-04.47.53:032][997]MapCheck: New page: マップをチェック
-[2017.09.20-04.47.53:032][997]LightingResults: New page: <何も選択されていません>
-[2017.09.20-04.47.53:044][997]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.20-04.47.53:072][997]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.20-04.47.53:201][997]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 128.723ミリ秒かかりました。
-[2017.09.20-04.47.53:202][997]LogFileHelpers: Loading map 'NewMap' took 0.177
-[2017.09.20-04.48.03:050][ 72]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\game\Desktop\Skinman\Assets\C_Skinman/appeal.fbx)
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: MotionBuilder_System, ItemCount : 18
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: AnimationLayer, ItemCount : 2
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: Model, ItemCount : 41
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: NodeAttribute, ItemCount : 40
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: Deformer, ItemCount : 41
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: AnimationCurveNode, ItemCount : 120
-[2017.09.20-04.48.03:257][ 72]LogFbx: ItemName: AnimationCurve, ItemCount : 360
-[2017.09.20-04.48.03:285][ 72]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman/appeal.fbx
-[2017.09.20-04.48.03:350][ 72]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.07:412][ 72]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman/appeal.fbx
-[2017.09.20-04.48.07:445][ 72]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.07:445][ 72]LogFbx: =================================================
-[2017.09.20-04.48.07:445][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.07:445][ 72]LogFbx: 	Total Deformer Count 1185516920.
-[2017.09.20-04.48.07:445][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.07:445][ 72]LogFbx: =================================================
-[2017.09.20-04.48.07:445][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.07:445][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.07:445][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.07:446][ 72]LogFbx: =================================================
-[2017.09.20-04.48.07:446][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.07:446][ 72]LogFbx: 	Total Deformer Count 1185517312.
-[2017.09.20-04.48.07:446][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.07:446][ 72]LogFbx: =================================================
-[2017.09.20-04.48.07:446][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.07:446][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.07:446][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.07:450][ 72]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
-[2017.09.20-04.48.07:451][ 72]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Skinman
-[2017.09.20-04.48.07:451][ 72]LogFbx: Warning: Recreating bind pose succeeded.
-[2017.09.20-04.48.07:507][ 72]LogFbx: Warning: Bones digested - 40  Depth of hierarchy - 11
-[2017.09.20-04.48.07:619][ 72]LogSkeletalMesh: Section 0: 1923 vertices, 31 active bones
-[2017.09.20-04.48.07:638][ 72]LogSkeletalMesh: Section 0: Material=0, 3066 triangles
-[2017.09.20-04.48.07:655][ 72]LogLinker: ファイル '/Game/C_Skinman/appeal_Skeleton' が見つかりません
-[2017.09.20-04.48.07:655][ 72]LogLinker: ファイル '/Game/C_Skinman/appeal_Skeleton' が見つかりません
-[2017.09.20-04.48.07:674][ 72]LogLinker: ファイル '/Game/C_Skinman/appeal_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.07:674][ 72]LogLinker: ファイル '/Game/C_Skinman/appeal_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.07:788][ 72]FBXImport: Warning: このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
-[2017.09.20-04.48.07:900][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/appeal.fbx.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.07:907][ 72]LogSlate: Took 0.000797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.20-04.48.07:921][ 72]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\game\Desktop\Skinman\Assets\C_Skinman/idle.fbx)
-[2017.09.20-04.48.07:939][ 72]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman/idle.fbx
-[2017.09.20-04.48.07:970][ 72]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.07:971][ 72]LogFbx: =================================================
-[2017.09.20-04.48.07:971][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.07:971][ 72]LogFbx: 	Total Deformer Count 1162209320.
-[2017.09.20-04.48.07:971][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.07:971][ 72]LogFbx: =================================================
-[2017.09.20-04.48.07:971][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.07:971][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.07:971][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.07:972][ 72]LogFbx: =================================================
-[2017.09.20-04.48.07:972][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.07:972][ 72]LogFbx: 	Total Deformer Count 1162209432.
-[2017.09.20-04.48.07:972][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.07:972][ 72]LogFbx: =================================================
-[2017.09.20-04.48.07:972][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.07:972][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.07:972][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.07:972][ 72]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
-[2017.09.20-04.48.07:973][ 72]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Skinman
-[2017.09.20-04.48.07:973][ 72]LogFbx: Warning: Recreating bind pose succeeded.
-[2017.09.20-04.48.07:979][ 72]LogFbx: Warning: Bones digested - 40  Depth of hierarchy - 11
-[2017.09.20-04.48.08:030][ 72]LogSkeletalMesh: Section 0: 1923 vertices, 31 active bones
-[2017.09.20-04.48.08:032][ 72]LogSkeletalMesh: Section 0: Material=0, 3066 triangles
-[2017.09.20-04.48.08:033][ 72]LogLinker: ファイル '/Game/C_Skinman/idle_Skeleton' が見つかりません
-[2017.09.20-04.48.08:033][ 72]LogLinker: ファイル '/Game/C_Skinman/idle_Skeleton' が見つかりません
-[2017.09.20-04.48.08:036][ 72]LogLinker: ファイル '/Game/C_Skinman/idle_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.08:036][ 72]LogLinker: ファイル '/Game/C_Skinman/idle_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.08:047][ 72]FBXImport: Warning: このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
-[2017.09.20-04.48.08:056][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/idle.fbx.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.08:068][ 72]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\game\Desktop\Skinman\Assets\C_Skinman/jump.fbx)
-[2017.09.20-04.48.08:080][ 72]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman/jump.fbx
-[2017.09.20-04.48.08:106][ 72]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.08:107][ 72]LogFbx: =================================================
-[2017.09.20-04.48.08:107][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.08:107][ 72]LogFbx: 	Total Deformer Count 1162204560.
-[2017.09.20-04.48.08:107][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.08:107][ 72]LogFbx: =================================================
-[2017.09.20-04.48.08:107][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.08:107][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.08:107][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.08:108][ 72]LogFbx: =================================================
-[2017.09.20-04.48.08:108][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.08:108][ 72]LogFbx: 	Total Deformer Count 1162211448.
-[2017.09.20-04.48.08:108][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.08:108][ 72]LogFbx: =================================================
-[2017.09.20-04.48.08:108][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.08:108][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.08:108][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.08:108][ 72]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
-[2017.09.20-04.48.08:108][ 72]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Skinman
-[2017.09.20-04.48.08:108][ 72]LogFbx: Warning: Recreating bind pose succeeded.
-[2017.09.20-04.48.08:114][ 72]LogFbx: Warning: Bones digested - 40  Depth of hierarchy - 11
-[2017.09.20-04.48.08:166][ 72]LogSkeletalMesh: Section 0: 1923 vertices, 31 active bones
-[2017.09.20-04.48.08:168][ 72]LogSkeletalMesh: Section 0: Material=0, 3066 triangles
-[2017.09.20-04.48.08:170][ 72]LogLinker: ファイル '/Game/C_Skinman/jump_Skeleton' が見つかりません
-[2017.09.20-04.48.08:170][ 72]LogLinker: ファイル '/Game/C_Skinman/jump_Skeleton' が見つかりません
-[2017.09.20-04.48.08:172][ 72]LogLinker: ファイル '/Game/C_Skinman/jump_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.08:172][ 72]LogLinker: ファイル '/Game/C_Skinman/jump_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.08:187][ 72]FBXImport: Warning: このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
-[2017.09.20-04.48.08:227][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/jump.fbx.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.08:261][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/Materials/No Name.mat' のインポートに失敗しました。不明な拡張子 'mat' です。
-[2017.09.20-04.48.08:328][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/Materials/No Name.mat.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.08:393][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/Materials.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.08:470][ 72]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\game\Desktop\Skinman\Assets\C_Skinman/ready.fbx)
-[2017.09.20-04.48.08:888][ 72]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman/ready.fbx
-[2017.09.20-04.48.08:928][ 72]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.08:929][ 72]LogFbx: =================================================
-[2017.09.20-04.48.08:929][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.08:929][ 72]LogFbx: 	Total Deformer Count 1162207808.
-[2017.09.20-04.48.08:929][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.08:929][ 72]LogFbx: =================================================
-[2017.09.20-04.48.08:929][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.08:929][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.08:929][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.08:930][ 72]LogFbx: =================================================
-[2017.09.20-04.48.08:930][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.08:930][ 72]LogFbx: 	Total Deformer Count 1162209712.
-[2017.09.20-04.48.08:930][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.08:930][ 72]LogFbx: =================================================
-[2017.09.20-04.48.08:930][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.08:930][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.08:930][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.08:930][ 72]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
-[2017.09.20-04.48.08:931][ 72]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Skinman
-[2017.09.20-04.48.08:931][ 72]LogFbx: Warning: Recreating bind pose succeeded.
-[2017.09.20-04.48.08:937][ 72]LogFbx: Warning: Bones digested - 40  Depth of hierarchy - 11
-[2017.09.20-04.48.09:004][ 72]LogSkeletalMesh: Section 0: 1923 vertices, 31 active bones
-[2017.09.20-04.48.09:006][ 72]LogSkeletalMesh: Section 0: Material=0, 3066 triangles
-[2017.09.20-04.48.09:008][ 72]LogLinker: ファイル '/Game/C_Skinman/ready_Skeleton' が見つかりません
-[2017.09.20-04.48.09:008][ 72]LogLinker: ファイル '/Game/C_Skinman/ready_Skeleton' が見つかりません
-[2017.09.20-04.48.09:010][ 72]LogLinker: ファイル '/Game/C_Skinman/ready_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.09:011][ 72]LogLinker: ファイル '/Game/C_Skinman/ready_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.09:051][ 72]LogSlate: Took 0.000531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.20-04.48.09:052][ 72]FBXImport: Warning: このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
-[2017.09.20-04.48.09:110][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/ready.fbx.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.09:121][ 72]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\game\Desktop\Skinman\Assets\C_Skinman/run.fbx)
-[2017.09.20-04.48.09:135][ 72]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman/run.fbx
-[2017.09.20-04.48.09:161][ 72]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.09:162][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:162][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.09:162][ 72]LogFbx: 	Total Deformer Count 1162204616.
-[2017.09.20-04.48.09:162][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.09:162][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:162][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.09:162][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.09:162][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.09:163][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:163][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.09:163][ 72]LogFbx: 	Total Deformer Count 1162201368.
-[2017.09.20-04.48.09:163][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.09:163][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:163][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.09:163][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.09:163][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.09:163][ 72]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
-[2017.09.20-04.48.09:163][ 72]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Skinman
-[2017.09.20-04.48.09:163][ 72]LogFbx: Warning: Recreating bind pose succeeded.
-[2017.09.20-04.48.09:170][ 72]LogFbx: Warning: Bones digested - 40  Depth of hierarchy - 11
-[2017.09.20-04.48.09:221][ 72]LogSkeletalMesh: Section 0: 1923 vertices, 31 active bones
-[2017.09.20-04.48.09:223][ 72]LogSkeletalMesh: Section 0: Material=0, 3066 triangles
-[2017.09.20-04.48.09:225][ 72]LogLinker: ファイル '/Game/C_Skinman/run_Skeleton' が見つかりません
-[2017.09.20-04.48.09:225][ 72]LogLinker: ファイル '/Game/C_Skinman/run_Skeleton' が見つかりません
-[2017.09.20-04.48.09:227][ 72]LogLinker: ファイル '/Game/C_Skinman/run_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.09:228][ 72]LogLinker: ファイル '/Game/C_Skinman/run_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.09:239][ 72]FBXImport: Warning: このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
-[2017.09.20-04.48.09:250][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/run.fbx.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.09:267][ 72]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\game\Desktop\Skinman\Assets\C_Skinman/set.fbx)
-[2017.09.20-04.48.09:281][ 72]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman/set.fbx
-[2017.09.20-04.48.09:308][ 72]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.09:308][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:308][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.09:308][ 72]LogFbx: 	Total Deformer Count 1162204336.
-[2017.09.20-04.48.09:308][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.09:308][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:308][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.09:308][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.09:308][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.09:309][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:309][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.09:309][ 72]LogFbx: 	Total Deformer Count 1162199520.
-[2017.09.20-04.48.09:309][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.09:309][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:309][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.09:309][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.09:309][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.09:309][ 72]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
-[2017.09.20-04.48.09:310][ 72]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Skinman
-[2017.09.20-04.48.09:310][ 72]LogFbx: Warning: Recreating bind pose succeeded.
-[2017.09.20-04.48.09:316][ 72]LogFbx: Warning: Bones digested - 40  Depth of hierarchy - 11
-[2017.09.20-04.48.09:367][ 72]LogSkeletalMesh: Section 0: 1923 vertices, 31 active bones
-[2017.09.20-04.48.09:370][ 72]LogSkeletalMesh: Section 0: Material=0, 3066 triangles
-[2017.09.20-04.48.09:371][ 72]LogLinker: ファイル '/Game/C_Skinman/set_Skeleton' が見つかりません
-[2017.09.20-04.48.09:371][ 72]LogLinker: ファイル '/Game/C_Skinman/set_Skeleton' が見つかりません
-[2017.09.20-04.48.09:374][ 72]LogLinker: ファイル '/Game/C_Skinman/set_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.09:374][ 72]LogLinker: ファイル '/Game/C_Skinman/set_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.09:392][ 72]FBXImport: Warning: このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
-[2017.09.20-04.48.09:476][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/set.fbx.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.09:550][ 72]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\game\Desktop\Skinman\Assets\C_Skinman/walk.fbx)
-[2017.09.20-04.48.09:663][ 72]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman/walk.fbx
-[2017.09.20-04.48.09:700][ 72]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.09:700][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:701][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.09:701][ 72]LogFbx: 	Total Deformer Count 1162202600.
-[2017.09.20-04.48.09:701][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.09:701][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:701][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.09:701][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.09:701][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.09:701][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:702][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.09:702][ 72]LogFbx: 	Total Deformer Count 1162214248.
-[2017.09.20-04.48.09:702][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.09:702][ 72]LogFbx: =================================================
-[2017.09.20-04.48.09:702][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.09:702][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.09:702][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.09:702][ 72]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
-[2017.09.20-04.48.09:702][ 72]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Skinman
-[2017.09.20-04.48.09:702][ 72]LogFbx: Warning: Recreating bind pose succeeded.
-[2017.09.20-04.48.09:711][ 72]LogFbx: Warning: Bones digested - 40  Depth of hierarchy - 11
-[2017.09.20-04.48.09:819][ 72]LogSkeletalMesh: Section 0: 1923 vertices, 31 active bones
-[2017.09.20-04.48.09:822][ 72]LogSkeletalMesh: Section 0: Material=0, 3066 triangles
-[2017.09.20-04.48.09:824][ 72]LogLinker: ファイル '/Game/C_Skinman/walk_Skeleton' が見つかりません
-[2017.09.20-04.48.09:824][ 72]LogLinker: ファイル '/Game/C_Skinman/walk_Skeleton' が見つかりません
-[2017.09.20-04.48.09:827][ 72]LogLinker: ファイル '/Game/C_Skinman/walk_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.09:827][ 72]LogLinker: ファイル '/Game/C_Skinman/walk_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.09:857][ 72]FBXImport: Warning: このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
-[2017.09.20-04.48.09:942][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/walk.fbx.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.09:966][ 72]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\game\Desktop\Skinman\Assets\C_Skinman/winner.fbx)
-[2017.09.20-04.48.09:999][ 72]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman/winner.fbx
-[2017.09.20-04.48.10:032][ 72]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.10:033][ 72]LogFbx: =================================================
-[2017.09.20-04.48.10:033][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.10:033][ 72]LogFbx: 	Total Deformer Count 1162214024.
-[2017.09.20-04.48.10:033][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.10:033][ 72]LogFbx: =================================================
-[2017.09.20-04.48.10:033][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.10:033][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.10:033][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.10:034][ 72]LogFbx: =================================================
-[2017.09.20-04.48.10:034][ 72]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.10:034][ 72]LogFbx: 	Total Deformer Count 1162215368.
-[2017.09.20-04.48.10:034][ 72]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.10:034][ 72]LogFbx: =================================================
-[2017.09.20-04.48.10:034][ 72]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.10:034][ 72]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.10:034][ 72]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.10:034][ 72]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
-[2017.09.20-04.48.10:035][ 72]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Skinman
-[2017.09.20-04.48.10:035][ 72]LogFbx: Warning: Recreating bind pose succeeded.
-[2017.09.20-04.48.10:041][ 72]LogFbx: Warning: Bones digested - 40  Depth of hierarchy - 11
-[2017.09.20-04.48.10:092][ 72]LogSkeletalMesh: Section 0: 1923 vertices, 31 active bones
-[2017.09.20-04.48.10:094][ 72]LogSkeletalMesh: Section 0: Material=0, 3066 triangles
-[2017.09.20-04.48.10:096][ 72]LogLinker: ファイル '/Game/C_Skinman/winner_Skeleton' が見つかりません
-[2017.09.20-04.48.10:096][ 72]LogLinker: ファイル '/Game/C_Skinman/winner_Skeleton' が見つかりません
-[2017.09.20-04.48.10:098][ 72]LogLinker: ファイル '/Game/C_Skinman/winner_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.10:098][ 72]LogLinker: ファイル '/Game/C_Skinman/winner_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.10:114][ 72]FBXImport: Warning: このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
-[2017.09.20-04.48.10:175][ 72]LogAssetTools: Warning: 'C:\Users\game\Desktop\Skinman\Assets\C_Skinman/winner.fbx.meta' のインポートに失敗しました。不明な拡張子 'meta' です。
-[2017.09.20-04.48.40:160][761]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\game\Desktop\Skinman\Assets\C_Skinman.fbx)
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: MotionBuilder_System, ItemCount : 21
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: Model, ItemCount : 49
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: NodeAttribute, ItemCount : 48
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: Material, ItemCount : 2
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: Texture, ItemCount : 1
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: Video, ItemCount : 1
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: MotionBuilder_Generic, ItemCount : 3
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: Pose, ItemCount : 1
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: Deformer, ItemCount : 41
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: Character, ItemCount : 1
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: AnimationLayer, ItemCount : 2
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: AnimationCurveNode, ItemCount : 120
-[2017.09.20-04.48.40:317][761]LogFbx: ItemName: AnimationCurve, ItemCount : 360
-[2017.09.20-04.48.40:322][761]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman.fbx
-[2017.09.20-04.48.40:517][761]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.42:803][761]LogFbx: Loading FBX Scene from C:\Users\game\Desktop\Skinman\Assets\C_Skinman.fbx
-[2017.09.20-04.48.42:949][761]LogFbx: FBX Scene Loaded Succesfully
-[2017.09.20-04.48.42:951][761]LogFbx: =================================================
-[2017.09.20-04.48.42:951][761]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.42:951][761]LogFbx: 	Total Deformer Count 1185514736.
-[2017.09.20-04.48.42:951][761]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.42:951][761]LogFbx: =================================================
-[2017.09.20-04.48.42:951][761]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.42:951][761]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.42:951][761]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.42:952][761]LogFbx: =================================================
-[2017.09.20-04.48.42:952][761]LogFbx: Dumping Node START [Skinman] 
-[2017.09.20-04.48.42:952][761]LogFbx: 	Total Deformer Count 1185521960.
-[2017.09.20-04.48.42:952][761]LogFbx: 		[Node 1] Skin_Skinman 1 (Type Skin).
-[2017.09.20-04.48.42:952][761]LogFbx: =================================================
-[2017.09.20-04.48.42:952][761]LogFbx: 	Attribute (Model::Skinman) Type (4).
-[2017.09.20-04.48.42:952][761]LogFbx: 		[Node Attribute Child 1] Skinman (Type Mesh).
-[2017.09.20-04.48.42:952][761]LogFbx: Dumping Node END [Skinman]
-[2017.09.20-04.48.42:952][761]LogFbx: Valid bind pose for Pose (skinCluster2) - Skinman
-[2017.09.20-04.48.42:966][761]LogLinker: ファイル '/Game/Skinman1' が見つかりません
-[2017.09.20-04.48.42:966][761]LogLinker: ファイル '/Game/Skinman1' が見つかりません
-[2017.09.20-04.48.42:986][761]LogMaterial: Warning: Material /Game/Skinman1.Skinman1 needed to have new flag set bUsedWithSkeletalMesh !
-[2017.09.20-04.48.42:988][761]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
-[2017.09.20-04.48.43:084][761]LogLinker: ファイル '/Game/C_Skinman' が見つかりません
-[2017.09.20-04.48.43:194][761]Error: DDS uses an unsupported format.
-[2017.09.20-04.48.43:195][761]Error: Texture import failed
-[2017.09.20-04.48.43:200][761]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
-[2017.09.20-04.48.43:252][761]LogFbx: Warning: Bones digested - 40  Depth of hierarchy - 11
-[2017.09.20-04.48.43:308][761]LogSkeletalMesh: Section 0: 1923 vertices, 31 active bones
-[2017.09.20-04.48.43:310][761]LogSkeletalMesh: Section 0: Material=0, 3066 triangles
-[2017.09.20-04.48.43:312][761]LogLinker: ファイル '/Game/C_Skinman_Skeleton' が見つかりません
-[2017.09.20-04.48.43:312][761]LogLinker: ファイル '/Game/C_Skinman_Skeleton' が見つかりません
-[2017.09.20-04.48.43:314][761]LogLinker: ファイル '/Game/C_Skinman_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.43:314][761]LogLinker: ファイル '/Game/C_Skinman_PhysicsAsset' が見つかりません
-[2017.09.20-04.48.43:328][761]FBXImport: Warning: このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
-[2017.09.20-04.48.59:120][828]LogEditorFactories: Performing atomic reimport of [C:/Users/game/Desktop/Skinman/Assets/C_Skinman.dds]
-[2017.09.20-04.48.59:156][828]LogFbx: Error: Call to FbxImporter::Initialize() failed.
-[2017.09.20-04.48.59:156][828]LogFbx: Warning: Error returned: Unexpected file type
-[2017.09.20-04.48.59:156][828]LogEditorFactories: Warning: -- import failed
-[2017.09.20-04.49.07:438][853]LogEditorFactories: Performing atomic reimport of [C:/Users/game/Desktop/Skinman/Assets/C_Skinman.dds]
-[2017.09.20-04.49.07:469][853]LogFbx: Error: Call to FbxImporter::Initialize() failed.
-[2017.09.20-04.49.07:469][853]LogFbx: Warning: Error returned: Unexpected file type
-[2017.09.20-04.49.07:469][853]LogEditorFactories: Warning: -- import failed
-[2017.09.20-04.49.11:518][908]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
-[2017.09.20-04.49.11:538][908]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
-[2017.09.20-04.49.11:955][908]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
-[2017.09.20-04.49.12:006][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2017.09.20-04.49.12:047][908]LogSlate: Took 0.021357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.20-04.49.12:562][909]LogSlate: Took 0.013507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.09.20-04.49.14:706][ 29]MaterialEditorStats: Base pass shader: 80 instructions
-[2017.09.20-04.49.14:706][ 29]MaterialEditorStats: Vertex shader: 29 instructions
-[2017.09.20-04.49.14:706][ 29]MaterialEditorStats: Texture samplers: 1/16
-[2017.09.20-04.51.31:288][ 80]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
-[2017.09.20-04.52.57:533][633]LogMetaData: Removing '/Game/Skingman.Skingman:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
-[2017.09.20-04.52.57:533][633]LogMetaData: Removing '/Game/Skingman.SKEL_Skingman_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
-[2017.09.20-04.52.57:533][633]LogMetaData: Removing '/Game/Skingman.Skingman_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
-[2017.09.20-04.52.57:534][633]LogMetaData: Removing '/Game/Skingman.Skingman:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
-[2017.09.20-04.52.57:534][633]LogMetaData: Removing '/Game/Skingman.Skingman:EventGraph.K2Node_Event_1' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
-[2017.09.20-04.52.57:534][633]LogMetaData: Removing '/Game/Skingman.Skingman:EventGraph.K2Node_Event_2' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
-[2017.09.20-04.52.57:623][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skingman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skingman.uasset" SILENT=true
-[2017.09.20-04.52.57:693][633]LogSavePackage: Save=68.03ms
-[2017.09.20-04.52.57:693][633]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skingman0431E15145A5EE17064B138F67EB3DB7.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skingman.uasset'
-[2017.09.20-04.52.57:725][633]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skingman.uasset
-[2017.09.20-04.53.36:400][214]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.09.20-04.54.10:633][659]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
-[2017.09.20-04.54.21:991][327]LogMetaData: Removing '/Game/Skinman.Skinman_C' ref from Metadata '/Game/Skingman.PackageMetaData'
-[2017.09.20-04.54.21:991][327]LogMetaData: Removing '/Game/Skinman.SKEL_Skinman_C' ref from Metadata '/Game/Skingman.PackageMetaData'
-[2017.09.20-04.54.21:991][327]LogMetaData: Removing '/Game/Skinman.Skinman:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Skingman.PackageMetaData'
-[2017.09.20-04.54.21:991][327]LogMetaData: Removing '/Game/Skinman.Skinman:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Skingman.PackageMetaData'
-[2017.09.20-04.54.21:991][327]LogMetaData: Removing '/Game/Skinman.Skinman:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Skingman.PackageMetaData'
-[2017.09.20-04.54.21:991][327]LogMetaData: Removing '/Game/Skinman.Skinman:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Skingman.PackageMetaData'
-[2017.09.20-04.54.22:024][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skinman.uasset" SILENT=true
-[2017.09.20-04.54.22:046][327]LogSavePackage: Save=20.15ms
-[2017.09.20-04.54.22:046][327]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman14EE0C0F4D701AB4B39E18B151AC0393.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skinman.uasset'
-[2017.09.20-04.54.22:048][327]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skinman.uasset
-[2017.09.20-04.55.16:089][751]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:3078).
-[2017.09.20-04.56.20:271][213]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.09.20-04.59.21:420][165]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.017
-[2017.09.20-04.59.21:461][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C_Skinman/appeal] ([1] browsable assets)...
-[2017.09.20-04.59.21:476][165]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/C_Skinman/appeal.appeal]
-[2017.09.20-04.59.21:476][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/appeal]
-[2017.09.20-04.59.21:476][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman/appeal" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/appeal_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.21:573][165]LogSavePackage: Save=94.92ms
-[2017.09.20-04.59.21:573][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/appeal_Auto12EE36A0E404B9AF708D532B216081785.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/appeal_Auto1.uasset'
-[2017.09.20-04.59.21:575][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/appeal_Auto1.uasset
-[2017.09.20-04.59.21:576][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/appeal_Skeleton] ([1] browsable assets)...
-[2017.09.20-04.59.21:576][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/appeal_Skeleton]
-[2017.09.20-04.59.21:580][165]LogSavePackage: Save=2.22ms
-[2017.09.20-04.59.21:580][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/appeal_Skeleton_Auto16AD620684C7AEE5174C0A98DF83B74E4.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/appeal_Skeleton_Auto1.uasset'
-[2017.09.20-04.59.21:581][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/appeal_Skeleton_Auto1.uasset
-[2017.09.20-04.59.21:582][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/appeal_PhysicsAsset] ([1] browsable assets)...
-[2017.09.20-04.59.21:582][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/appeal_PhysicsAsset]
-[2017.09.20-04.59.21:596][165]LogSavePackage: Save=11.70ms
-[2017.09.20-04.59.21:596][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/appeal_PhysicsAsset_Auto12F96AF8A446FE6273B0433927A2F330E.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/appeal_PhysicsAsset_Auto1.uasset'
-[2017.09.20-04.59.21:598][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/appeal_PhysicsAsset_Auto1.uasset
-[2017.09.20-04.59.21:598][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C_Skinman/idle] ([1] browsable assets)...
-[2017.09.20-04.59.21:614][165]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/C_Skinman/idle.idle]
-[2017.09.20-04.59.21:614][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/idle]
-[2017.09.20-04.59.21:614][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman/idle" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/idle_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.21:632][165]LogSavePackage: Save=16.29ms
-[2017.09.20-04.59.21:632][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/idle_Auto18B6B6D1241053DD78806FDBD44B47492.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/idle_Auto1.uasset'
-[2017.09.20-04.59.21:633][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/idle_Auto1.uasset
-[2017.09.20-04.59.21:634][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/idle_Skeleton] ([1] browsable assets)...
-[2017.09.20-04.59.21:634][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/idle_Skeleton]
-[2017.09.20-04.59.21:640][165]LogSavePackage: Save=4.53ms
-[2017.09.20-04.59.21:640][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/idle_Skeleton_Auto18A0594874B147B1C2237E1A4E6EAB71F.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/idle_Skeleton_Auto1.uasset'
-[2017.09.20-04.59.21:641][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/idle_Skeleton_Auto1.uasset
-[2017.09.20-04.59.21:641][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/idle_PhysicsAsset] ([1] browsable assets)...
-[2017.09.20-04.59.21:641][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/idle_PhysicsAsset]
-[2017.09.20-04.59.21:651][165]LogSavePackage: Save=8.62ms
-[2017.09.20-04.59.21:651][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/idle_PhysicsAsset_Auto1A1D2C6C04E34D3B321EF78BF8DD70C55.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/idle_PhysicsAsset_Auto1.uasset'
-[2017.09.20-04.59.21:652][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/idle_PhysicsAsset_Auto1.uasset
-[2017.09.20-04.59.21:653][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C_Skinman/jump] ([1] browsable assets)...
-[2017.09.20-04.59.21:668][165]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/C_Skinman/jump.jump]
-[2017.09.20-04.59.21:668][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/jump]
-[2017.09.20-04.59.21:668][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman/jump" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/jump_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.21:689][165]LogSavePackage: Save=16.45ms
-[2017.09.20-04.59.21:690][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/jump_Auto1BD6FFE7946046C0A88C1F585B94A12AB.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/jump_Auto1.uasset'
-[2017.09.20-04.59.21:691][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/jump_Auto1.uasset
-[2017.09.20-04.59.21:691][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/jump_Skeleton] ([1] browsable assets)...
-[2017.09.20-04.59.21:691][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/jump_Skeleton]
-[2017.09.20-04.59.21:694][165]LogSavePackage: Save=1.70ms
-[2017.09.20-04.59.21:694][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/jump_Skeleton_Auto1719B656843E6D9ADE5272E8A3C4F08BA.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/jump_Skeleton_Auto1.uasset'
-[2017.09.20-04.59.21:696][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/jump_Skeleton_Auto1.uasset
-[2017.09.20-04.59.21:696][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/jump_PhysicsAsset] ([1] browsable assets)...
-[2017.09.20-04.59.21:696][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/jump_PhysicsAsset]
-[2017.09.20-04.59.21:706][165]LogSavePackage: Save=8.45ms
-[2017.09.20-04.59.21:706][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/jump_PhysicsAsset_Auto1E927434A45B151F6F71E27B17C3D1908.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/jump_PhysicsAsset_Auto1.uasset'
-[2017.09.20-04.59.21:707][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/jump_PhysicsAsset_Auto1.uasset
-[2017.09.20-04.59.21:707][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C_Skinman/ready] ([1] browsable assets)...
-[2017.09.20-04.59.21:722][165]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/C_Skinman/ready.ready]
-[2017.09.20-04.59.21:722][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/ready]
-[2017.09.20-04.59.21:722][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman/ready" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/ready_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.21:738][165]LogSavePackage: Save=14.95ms
-[2017.09.20-04.59.21:739][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/ready_Auto1EADBBE6740AD9F7D191419BDC5B23737.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/ready_Auto1.uasset'
-[2017.09.20-04.59.21:740][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/ready_Auto1.uasset
-[2017.09.20-04.59.21:740][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/ready_Skeleton] ([1] browsable assets)...
-[2017.09.20-04.59.21:740][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/ready_Skeleton]
-[2017.09.20-04.59.21:743][165]LogSavePackage: Save=1.57ms
-[2017.09.20-04.59.21:743][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/ready_Skeleton_Auto161725E8E4C57F4CCD4277981E5B08854.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/ready_Skeleton_Auto1.uasset'
-[2017.09.20-04.59.21:744][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/ready_Skeleton_Auto1.uasset
-[2017.09.20-04.59.21:745][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/ready_PhysicsAsset] ([1] browsable assets)...
-[2017.09.20-04.59.21:745][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/ready_PhysicsAsset]
-[2017.09.20-04.59.21:755][165]LogSavePackage: Save=8.43ms
-[2017.09.20-04.59.21:755][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/ready_PhysicsAsset_Auto1B493BFC94C470DE96270E9B2D483A65A.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/ready_PhysicsAsset_Auto1.uasset'
-[2017.09.20-04.59.21:756][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/ready_PhysicsAsset_Auto1.uasset
-[2017.09.20-04.59.21:756][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C_Skinman/run] ([1] browsable assets)...
-[2017.09.20-04.59.21:771][165]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/C_Skinman/run.run]
-[2017.09.20-04.59.21:771][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/run]
-[2017.09.20-04.59.21:771][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman/run" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/run_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.21:788][165]LogSavePackage: Save=15.19ms
-[2017.09.20-04.59.21:788][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/run_Auto1ACC1AE6F45AA7CBB47AB6DB63D7EF500.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/run_Auto1.uasset'
-[2017.09.20-04.59.21:789][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/run_Auto1.uasset
-[2017.09.20-04.59.21:789][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/run_Skeleton] ([1] browsable assets)...
-[2017.09.20-04.59.21:789][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/run_Skeleton]
-[2017.09.20-04.59.21:792][165]LogSavePackage: Save=1.56ms
-[2017.09.20-04.59.21:793][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/run_Skeleton_Auto123FFEC93476D950C001A5DAFF71EF66D.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/run_Skeleton_Auto1.uasset'
-[2017.09.20-04.59.21:794][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/run_Skeleton_Auto1.uasset
-[2017.09.20-04.59.21:794][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/run_PhysicsAsset] ([1] browsable assets)...
-[2017.09.20-04.59.21:794][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/run_PhysicsAsset]
-[2017.09.20-04.59.21:804][165]LogSavePackage: Save=8.57ms
-[2017.09.20-04.59.21:804][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/run_PhysicsAsset_Auto15DBA917346C901DF7451FAB15FEF6592.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/run_PhysicsAsset_Auto1.uasset'
-[2017.09.20-04.59.21:805][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/run_PhysicsAsset_Auto1.uasset
-[2017.09.20-04.59.21:805][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C_Skinman/set] ([1] browsable assets)...
-[2017.09.20-04.59.21:821][165]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/C_Skinman/set.set]
-[2017.09.20-04.59.21:821][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/set]
-[2017.09.20-04.59.21:821][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman/set" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/set_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.21:838][165]LogSavePackage: Save=15.88ms
-[2017.09.20-04.59.21:838][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/set_Auto1468536C940350468B8CCB8AE9A0C793B.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/set_Auto1.uasset'
-[2017.09.20-04.59.21:839][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/set_Auto1.uasset
-[2017.09.20-04.59.21:840][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/set_Skeleton] ([1] browsable assets)...
-[2017.09.20-04.59.21:840][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/set_Skeleton]
-[2017.09.20-04.59.21:843][165]LogSavePackage: Save=1.60ms
-[2017.09.20-04.59.21:843][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/set_Skeleton_Auto1C326CAA54F11B3D022A9D39A5358C09E.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/set_Skeleton_Auto1.uasset'
-[2017.09.20-04.59.21:866][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/set_Skeleton_Auto1.uasset
-[2017.09.20-04.59.21:867][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/set_PhysicsAsset] ([1] browsable assets)...
-[2017.09.20-04.59.21:867][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/set_PhysicsAsset]
-[2017.09.20-04.59.21:884][165]LogSavePackage: Save=15.82ms
-[2017.09.20-04.59.21:884][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/set_PhysicsAsset_Auto178CB581749BABD8869421E85D436819C.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/set_PhysicsAsset_Auto1.uasset'
-[2017.09.20-04.59.21:887][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/set_PhysicsAsset_Auto1.uasset
-[2017.09.20-04.59.21:888][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C_Skinman/walk] ([1] browsable assets)...
-[2017.09.20-04.59.21:911][165]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/C_Skinman/walk.walk]
-[2017.09.20-04.59.21:911][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/walk]
-[2017.09.20-04.59.21:911][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman/walk" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/walk_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.21:935][165]LogSavePackage: Save=21.47ms
-[2017.09.20-04.59.21:935][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/walk_Auto15FE565F043D5AA9FA847C5888E122D20.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/walk_Auto1.uasset'
-[2017.09.20-04.59.21:936][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/walk_Auto1.uasset
-[2017.09.20-04.59.21:936][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/walk_Skeleton] ([1] browsable assets)...
-[2017.09.20-04.59.21:936][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/walk_Skeleton]
-[2017.09.20-04.59.21:940][165]LogSavePackage: Save=1.64ms
-[2017.09.20-04.59.21:940][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/walk_Skeleton_Auto13F390BC142F1EE2CDA8E398EE1503186.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/walk_Skeleton_Auto1.uasset'
-[2017.09.20-04.59.21:941][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/walk_Skeleton_Auto1.uasset
-[2017.09.20-04.59.21:941][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/walk_PhysicsAsset] ([1] browsable assets)...
-[2017.09.20-04.59.21:941][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/walk_PhysicsAsset]
-[2017.09.20-04.59.21:951][165]LogSavePackage: Save=8.50ms
-[2017.09.20-04.59.21:951][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/walk_PhysicsAsset_Auto1F2E6C9F047F005CE82C3DD9E6246790F.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/walk_PhysicsAsset_Auto1.uasset'
-[2017.09.20-04.59.21:952][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/walk_PhysicsAsset_Auto1.uasset
-[2017.09.20-04.59.21:953][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C_Skinman/winner] ([1] browsable assets)...
-[2017.09.20-04.59.21:967][165]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/C_Skinman/winner.winner]
-[2017.09.20-04.59.21:967][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/winner]
-[2017.09.20-04.59.21:967][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman/winner" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/winner_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.21:984][165]LogSavePackage: Save=14.96ms
-[2017.09.20-04.59.21:984][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/winner_Auto1C9AE444F4CD9FC64866B05A2DDC9BF0C.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/winner_Auto1.uasset'
-[2017.09.20-04.59.21:985][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/winner_Auto1.uasset
-[2017.09.20-04.59.21:985][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/winner_Skeleton] ([1] browsable assets)...
-[2017.09.20-04.59.21:985][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/winner_Skeleton]
-[2017.09.20-04.59.21:988][165]LogSavePackage: Save=1.61ms
-[2017.09.20-04.59.21:988][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/winner_Skeleton_Auto159002D46483FDF3E2716F4AEAE2F3253.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/winner_Skeleton_Auto1.uasset'
-[2017.09.20-04.59.21:989][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/winner_Skeleton_Auto1.uasset
-[2017.09.20-04.59.21:990][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman/winner_PhysicsAsset] ([1] browsable assets)...
-[2017.09.20-04.59.21:990][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman/winner_PhysicsAsset]
-[2017.09.20-04.59.22:000][165]LogSavePackage: Save=8.45ms
-[2017.09.20-04.59.22:000][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/winner_PhysicsAsset_Auto14241E3D34A5D65F082B662BB3595BA36.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/winner_PhysicsAsset_Auto1.uasset'
-[2017.09.20-04.59.22:001][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman/winner_PhysicsAsset_Auto1.uasset
-[2017.09.20-04.59.22:001][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C_Skinman] ([1] browsable assets)...
-[2017.09.20-04.59.22:015][165]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/C_Skinman.C_Skinman]
-[2017.09.20-04.59.22:015][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman]
-[2017.09.20-04.59.22:015][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.22:032][165]LogSavePackage: Save=14.95ms
-[2017.09.20-04.59.22:032][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/C_Skinman_Auto165AEBFEE422634D2C45074BCB9421C1D.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman_Auto1.uasset'
-[2017.09.20-04.59.22:033][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman_Auto1.uasset
-[2017.09.20-04.59.22:034][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Skinman1] ([1] browsable assets)...
-[2017.09.20-04.59.22:048][165]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Skinman1.Skinman1]
-[2017.09.20-04.59.22:048][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skinman1]
-[2017.09.20-04.59.22:049][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman1" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman1_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.22:060][165]LogSavePackage: Save=9.76ms
-[2017.09.20-04.59.22:061][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman1_Auto171DE698D4EE73609B4E8C0B493F8A32A.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman1_Auto1.uasset'
-[2017.09.20-04.59.22:081][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman1_Auto1.uasset
-[2017.09.20-04.59.22:081][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman_Skeleton] ([1] browsable assets)...
-[2017.09.20-04.59.22:081][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman_Skeleton]
-[2017.09.20-04.59.22:081][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C_Skinman_Skeleton" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman_Skeleton_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.22:084][165]LogSavePackage: Save=1.64ms
-[2017.09.20-04.59.22:084][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/C_Skinman_Skeleton_Auto14C9314C0408734E75DDB78829B03C31E.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman_Skeleton_Auto1.uasset'
-[2017.09.20-04.59.22:085][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman_Skeleton_Auto1.uasset
-[2017.09.20-04.59.22:086][165]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/C_Skinman_PhysicsAsset] ([1] browsable assets)...
-[2017.09.20-04.59.22:086][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/C_Skinman_PhysicsAsset]
-[2017.09.20-04.59.22:096][165]LogSavePackage: Save=8.52ms
-[2017.09.20-04.59.22:096][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/C_Skinman_PhysicsAsset_Auto1BED82F544D26F3EA00B16DB9E9E03F09.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman_PhysicsAsset_Auto1.uasset'
-[2017.09.20-04.59.22:097][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/C_Skinman_PhysicsAsset_Auto1.uasset
-[2017.09.20-04.59.22:097][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkinmanAnimBlueprint] ([1] browsable assets)...
-[2017.09.20-04.59.22:111][165]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/SkinmanAnimBlueprint.SkinmanAnimBlueprint]
-[2017.09.20-04.59.22:111][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkinmanAnimBlueprint]
-[2017.09.20-04.59.22:127][165]LogSavePackage: Save=14.26ms
-[2017.09.20-04.59.22:128][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/SkinmanAnimBlueprint_Auto130022B0C49924E1440CF42A37F945B85.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/SkinmanAnimBlueprint_Auto1.uasset'
-[2017.09.20-04.59.22:129][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/SkinmanAnimBlueprint_Auto1.uasset
-[2017.09.20-04.59.22:129][165]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Skinman] ([1] browsable assets)...
-[2017.09.20-04.59.22:143][165]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Skinman.Skinman]
-[2017.09.20-04.59.22:143][165]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skinman]
-[2017.09.20-04.59.22:143][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-04.59.22:179][165]LogSavePackage: Save=28.38ms
-[2017.09.20-04.59.22:180][165]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman_Auto1779F3C5D4C42CEA62CC3A78764FA12F3.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto1.uasset'
-[2017.09.20-04.59.22:181][165]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto1.uasset
-[2017.09.20-04.59.22:258][165]LogFileHelpers: Auto-saving content packages took 0.760
-[2017.09.20-05.03.15:283][945]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0015 seconds. Added 1 classes and 2 folders.
-[2017.09.20-05.03.15:815][945]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2017.09.20-05.03.16:364][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2017.09.20-05.03.17:139][945]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
-[2017.09.20-05.05.04:160][119]BlueprintLog: New page: SkinmanAnimBlueprint をコンパイル
-[2017.09.20-05.06.31:661][907]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.09.20-05.06.46:417][867]BlueprintLog: New page: Game をコンパイル
-[2017.09.20-05.07.15:531][517]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GitTest
-[2017.09.20-05.07.15:531][517]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.09.20-05.07.15:531][517]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2017.09.20-05.07.15:531][517]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.09.20-05.07.15:549][518]LogTemp: BranchPath = MSK-Z18/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MSK-Z18/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2017.09.20-05.07.15:755][533]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\game\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.09.20-05.10.01:667][122]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.034
-[2017.09.20-05.10.01:668][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkinmanAnimBlueprint] ([1] browsable assets)...
-[2017.09.20-05.10.01:683][122]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/SkinmanAnimBlueprint.SkinmanAnimBlueprint]
-[2017.09.20-05.10.01:683][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkinmanAnimBlueprint]
-[2017.09.20-05.10.01:760][122]LogSavePackage: Save=74.07ms
-[2017.09.20-05.10.01:760][122]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/SkinmanAnimBlueprint_Auto26640349F4D8B4534D92D31A02FFF3D5F.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/SkinmanAnimBlueprint_Auto2.uasset'
-[2017.09.20-05.10.02:013][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/SkinmanAnimBlueprint_Auto2.uasset
-[2017.09.20-05.10.02:014][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Skinman] ([1] browsable assets)...
-[2017.09.20-05.10.02:061][122]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Skinman.Skinman]
-[2017.09.20-05.10.02:061][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skinman]
-[2017.09.20-05.10.02:062][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-05.10.02:150][122]LogSavePackage: Save=42.99ms
-[2017.09.20-05.10.02:150][122]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman_Auto242DD60AD4215C68B464AE6BFAEBE38F2.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto2.uasset'
-[2017.09.20-05.10.02:151][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto2.uasset
-[2017.09.20-05.10.02:152][122]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game] ([1] browsable assets)...
-[2017.09.20-05.10.02:152][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game]
-[2017.09.20-05.10.02:152][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Game_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-05.10.02:164][122]LogSavePackage: Save=10.68ms
-[2017.09.20-05.10.02:164][122]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Game_Auto237CB18E340464E6C4A2DD5854FEFA2A2.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Game_Auto2.uasset'
-[2017.09.20-05.10.02:165][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Game_Auto2.uasset
-[2017.09.20-05.10.02:165][122]LogFileHelpers: Auto-saving content packages took 0.498
-[2017.09.20-05.14.26:028][617]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.09.20-05.18.49:075][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2017.09.20-05.18.49:337][669]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
-[2017.09.20-05.20.23:682][463]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
-[2017.09.20-05.20.23:778][463]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
-[2017.09.20-05.20.29:222][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
-[2017.09.20-05.20.29:260][758]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
-[2017.09.20-05.22.44:216][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skinman.uasset" SILENT=true
-[2017.09.20-05.22.44:271][259]LogSavePackage: Save=28.86ms
-[2017.09.20-05.22.44:271][259]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman072D5AFF4CB998909C909C81E4715C06.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skinman.uasset'
-[2017.09.20-05.22.44:274][259]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skinman.uasset
-[2017.09.20-05.25.32:797][699]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.023
-[2017.09.20-05.25.32:799][699]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkinmanAnimBlueprint] ([1] browsable assets)...
-[2017.09.20-05.25.32:813][699]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/SkinmanAnimBlueprint.SkinmanAnimBlueprint]
-[2017.09.20-05.25.32:813][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkinmanAnimBlueprint]
-[2017.09.20-05.25.32:832][699]LogSavePackage: Save=15.92ms
-[2017.09.20-05.25.32:832][699]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/SkinmanAnimBlueprint_Auto3DABDC660437A0D4B1D4404A89A959A1F.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/SkinmanAnimBlueprint_Auto3.uasset'
-[2017.09.20-05.25.32:833][699]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/SkinmanAnimBlueprint_Auto3.uasset
-[2017.09.20-05.25.32:833][699]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Skinman] ([1] browsable assets)...
-[2017.09.20-05.25.32:848][699]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Skinman.Skinman]
-[2017.09.20-05.25.32:848][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skinman]
-[2017.09.20-05.25.32:848][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto3.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-05.25.32:885][699]LogSavePackage: Save=35.05ms
-[2017.09.20-05.25.32:885][699]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman_Auto34CDAF77440A46473D72607802E1457F6.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto3.uasset'
-[2017.09.20-05.25.32:886][699]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto3.uasset
-[2017.09.20-05.25.32:887][699]LogFileHelpers: Auto-saving content packages took 0.089
-[2017.09.20-05.36.01:651][514]LogEditorTransaction: Undo ノードを追加
-[2017.09.20-05.38.17:963][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.022
-[2017.09.20-05.38.17:966][ 26]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Skinman] ([1] browsable assets)...
-[2017.09.20-05.38.18:010][ 26]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Skinman.Skinman]
-[2017.09.20-05.38.18:010][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skinman]
-[2017.09.20-05.38.18:010][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto4.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-05.38.18:069][ 26]LogSavePackage: Save=54.81ms
-[2017.09.20-05.38.18:069][ 26]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman_Auto40349179340D9482E99748BAB0276D1D9.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto4.uasset'
-[2017.09.20-05.38.18:070][ 26]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto4.uasset
-[2017.09.20-05.38.18:070][ 26]LogFileHelpers: Auto-saving content packages took 0.105
-[2017.09.20-05.41.44:136][252]LogRenderer: Reallocating scene render targets to support 1252x900 Format 10 NumSamples 1 (Frame:438).
-[2017.09.20-05.48.48:347][977]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.017
-[2017.09.20-05.48.48:348][977]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Skinman] ([1] browsable assets)...
-[2017.09.20-05.48.48:364][977]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Skinman.Skinman]
-[2017.09.20-05.48.48:364][977]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skinman]
-[2017.09.20-05.48.48:364][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-05.48.48:425][977]LogSavePackage: Save=57.36ms
-[2017.09.20-05.48.48:425][977]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman_Auto5C258D0F74E49E2D9074726A86580A032.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto5.uasset'
-[2017.09.20-05.48.48:426][977]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto5.uasset
-[2017.09.20-05.48.48:426][977]LogFileHelpers: Auto-saving content packages took 0.079
-[2017.09.20-05.53.14:821][752]BlueprintLog: New page: Skinman をコンパイル
-[2017.09.20-05.53.19:682][899]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.09.20-05.58.27:523][ 56]BlueprintLog: New page: Skinman をコンパイル
-[2017.09.20-05.58.30:462][213]LogTemp: Repeating last play command: 選択ビューポート
-[2017.09.20-05.58.30:474][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-05.58.30:474][213]PIE: New page: PIEセッション: NewMap (2017/09/20 23:58:30)
-[2017.09.20-05.58.30:474][213]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.09.20-05.58.30:477][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002202s)
-[2017.09.20-05.58.30:477][213]LogAIModule: Creating AISystem for world NewMap
-[2017.09.20-05.58.30:478][213]LogPlayLevel: PIE: World Init took: (0.000876s)
-[2017.09.20-05.58.30:478][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003367s)
-[2017.09.20-05.58.30:499][213]LogInit: XAudio2 using 'スピーカー (2- High Definition Audio デバイス)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.20-05.58.30:505][213]LogInit: FAudioDevice initialized.
-[2017.09.20-05.58.30:541][213]LogLoad: Game class is 'Game_C'
-[2017.09.20-05.58.30:543][213]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.09.20-14.58.30
-[2017.09.20-05.58.30:543][213]LogWorld: Bringing up level for play took: 0.001163
-[2017.09.20-05.58.30:674][213]PIE: /Game/UEDPIE_0_NewMap 0.494のプレイ イン エディタの開始時間
-[2017.09.20-05.58.37:222][503]LogTemp: Repeating last play command: 選択ビューポート
-[2017.09.20-05.58.37:234][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-05.58.37:234][503]PIE: New page: PIEセッション: NewMap (2017/09/20 23:58:37)
-[2017.09.20-05.58.37:234][503]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.09.20-05.58.37:237][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002228s)
-[2017.09.20-05.58.37:237][503]LogAIModule: Creating AISystem for world NewMap
-[2017.09.20-05.58.37:237][503]LogPlayLevel: PIE: World Init took: (0.000745s)
-[2017.09.20-05.58.37:237][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003227s)
-[2017.09.20-05.58.37:260][503]LogInit: XAudio2 using 'スピーカー (2- High Definition Audio デバイス)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.20-05.58.37:267][503]LogInit: FAudioDevice initialized.
-[2017.09.20-05.58.37:301][503]LogLoad: Game class is 'Game_C'
-[2017.09.20-05.58.37:304][503]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.09.20-14.58.37
-[2017.09.20-05.58.37:304][503]LogWorld: Bringing up level for play took: 0.001900
-[2017.09.20-05.58.37:308][503]PIE: /Game/UEDPIE_0_NewMap -0.872のプレイ イン エディタの開始時間
-[2017.09.20-05.58.55:579][605]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GitTest
-[2017.09.20-05.58.55:580][605]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.09.20-05.58.55:580][605]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2017.09.20-05.58.55:580][605]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.09.20-05.58.55:580][605]LogTemp: BranchPath = MSK-Z18/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MSK-Z18/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2017.09.20-05.58.55:580][605]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\game\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.09.20-05.59.09:313][364]LogTemp: Repeating last play command: 選択ビューポート
-[2017.09.20-05.59.09:327][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-05.59.09:327][364]PIE: New page: PIEセッション: NewMap (2017/09/20 23:59:09)
-[2017.09.20-05.59.09:327][364]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.09.20-05.59.09:329][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001937s)
-[2017.09.20-05.59.09:330][364]LogAIModule: Creating AISystem for world NewMap
-[2017.09.20-05.59.09:330][364]LogPlayLevel: PIE: World Init took: (0.000748s)
-[2017.09.20-05.59.09:330][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.002933s)
-[2017.09.20-05.59.09:349][364]LogInit: XAudio2 using 'スピーカー (2- High Definition Audio デバイス)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.20-05.59.09:356][364]LogInit: FAudioDevice initialized.
-[2017.09.20-05.59.09:386][364]LogLoad: Game class is 'Game_C'
-[2017.09.20-05.59.09:388][364]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.09.20-14.59.09
-[2017.09.20-05.59.09:388][364]LogWorld: Bringing up level for play took: 0.000965
-[2017.09.20-05.59.09:390][364]PIE: /Game/UEDPIE_0_NewMap -0.791のプレイ イン エディタの開始時間
-[2017.09.20-05.59.17:870][993]LogTemp: Repeating last play command: 選択ビューポート
-[2017.09.20-05.59.17:882][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-05.59.17:882][993]PIE: New page: PIEセッション: NewMap (2017/09/20 23:59:17)
-[2017.09.20-05.59.17:882][993]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.09.20-05.59.17:884][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001651s)
-[2017.09.20-05.59.17:885][993]LogAIModule: Creating AISystem for world NewMap
-[2017.09.20-05.59.17:885][993]LogPlayLevel: PIE: World Init took: (0.000674s)
-[2017.09.20-05.59.17:885][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.002563s)
-[2017.09.20-05.59.17:904][993]LogInit: XAudio2 using 'スピーカー (2- High Definition Audio デバイス)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.20-05.59.17:910][993]LogInit: FAudioDevice initialized.
-[2017.09.20-05.59.17:942][993]LogLoad: Game class is 'Game_C'
-[2017.09.20-05.59.17:943][993]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.09.20-14.59.17
-[2017.09.20-05.59.17:944][993]LogWorld: Bringing up level for play took: 0.001075
-[2017.09.20-05.59.17:946][993]PIE: /Game/UEDPIE_0_NewMap -0.236のプレイ イン エディタの開始時間
-[2017.09.20-05.59.29:003][771]LogTemp: Repeating last play command: 選択ビューポート
-[2017.09.20-05.59.29:015][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.09.20-05.59.29:016][771]PIE: New page: PIEセッション: NewMap (2017/09/20 23:59:29)
-[2017.09.20-05.59.29:016][771]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2017.09.20-05.59.29:018][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001783s)
-[2017.09.20-05.59.29:018][771]LogAIModule: Creating AISystem for world NewMap
-[2017.09.20-05.59.29:018][771]LogPlayLevel: PIE: World Init took: (0.000739s)
-[2017.09.20-05.59.29:019][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.002806s)
-[2017.09.20-05.59.29:039][771]LogInit: XAudio2 using 'スピーカー (2- High Definition Audio デバイス)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.20-05.59.29:045][771]LogInit: FAudioDevice initialized.
-[2017.09.20-05.59.29:080][771]LogLoad: Game class is 'Game_C'
-[2017.09.20-05.59.29:083][771]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2017.09.20-14.59.29
-[2017.09.20-05.59.29:084][771]LogWorld: Bringing up level for play took: 0.001884
-[2017.09.20-05.59.29:088][771]PIE: /Game/UEDPIE_0_NewMap 0.907のプレイ イン エディタの開始時間
-[2017.09.20-06.01.04:307][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.019
-[2017.09.20-06.01.04:309][293]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Skinman] ([1] browsable assets)...
-[2017.09.20-06.01.04:330][293]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Skinman.Skinman]
-[2017.09.20-06.01.04:331][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Skinman]
-[2017.09.20-06.01.04:331][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto6.uasset" SILENT=false AUTOSAVING=true
-[2017.09.20-06.01.04:414][293]LogSavePackage: Save=79.38ms
-[2017.09.20-06.01.04:414][293]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman_Auto67188E9684B408C94486CF2A0ACFD81CE.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto6.uasset'
-[2017.09.20-06.01.04:415][293]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Autosaves/Game/Skinman_Auto6.uasset
-[2017.09.20-06.01.04:415][293]LogFileHelpers: Auto-saving content packages took 0.107
-[2017.09.20-07.51.50:324][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman" FILE="../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skinman.uasset" SILENT=true
-[2017.09.20-07.51.50:391][406]LogSavePackage: Save=60.94ms
-[2017.09.20-07.51.50:391][406]LogSavePackage: Moving '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Saved/Skinman550D64AD425EA33BA2D6768A44BD6ABA.tmp' to '../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skinman.uasset'
-[2017.09.20-07.51.50:394][406]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/game/Desktop/PW4/UE_GitTest/GitTest/Content/Skinman.uasset
+[2017.09.21-12.19.11:422][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-12.19.11:422][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.21-12.19.11:550][  0]LogInit: Computer: GCR-C13
+[2017.09.21-12.19.11:550][  0]LogInit: User: ladmin
+[2017.09.21-12.19.11:550][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.09.21-12.19.11:550][  0]LogInit: High frequency timer resolution =3.215419 MHz
+[2017.09.21-12.19.11:551][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.09.21-12.19.11:551][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.21-12.19.11:551][  0]LogMemory: Process Physical Memory: 280.55 MB used, 280.55 MB peak
+[2017.09.21-12.19.11:551][  0]LogMemory: Process Virtual Memory: 278.19 MB used, 278.19 MB peak
+[2017.09.21-12.19.11:551][  0]LogMemory: Physical Memory: 3904.88 MB used,  4161.64 MB free, 8066.52 MB total
+[2017.09.21-12.19.11:551][  0]LogMemory: Virtual Memory: 654.05 MB used,  4161.64 MB free, 8388608.00 MB total
+[2017.09.21-12.19.13:002][  0]LogInit: Using OS detected language (ja-JP).
+[2017.09.21-12.19.13:002][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.09.21-12.19.13:185][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2017.09.21-12.19.19:076][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.21-12.19.19:112][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 640' (Feature Level 11_0)
+[2017.09.21-12.19.19:112][  0]LogD3D11RHI:       970/0/3072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.21-12.19.19:134][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics' (Feature Level 11_0)
+[2017.09.21-12.19.19:134][  0]LogD3D11RHI:       64/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.21-12.19.19:134][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.21-12.19.19:144][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.21-12.19.19:145][  0]LogD3D11RHI:     GPU DeviceId: 0xfc1 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.21-12.19.19:145][  0]LogWindows: EnumDisplayDevices:
+[2017.09.21-12.19.19:145][  0]LogWindows:    0. 'NVIDIA GeForce GT 640' (P:1 D:1)
+[2017.09.21-12.19.19:145][  0]LogWindows:    1. 'NVIDIA GeForce GT 640' (P:0 D:0)
+[2017.09.21-12.19.19:145][  0]LogWindows:    2. 'NVIDIA GeForce GT 640' (P:0 D:0)
+[2017.09.21-12.19.19:145][  0]LogWindows:    3. 'Intel(R) HD Graphics' (P:0 D:0)
+[2017.09.21-12.19.19:145][  0]LogWindows:    4. 'Intel(R) HD Graphics' (P:0 D:0)
+[2017.09.21-12.19.19:146][  0]LogWindows:    5. 'Intel(R) HD Graphics' (P:0 D:0)
+[2017.09.21-12.19.19:146][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
+[2017.09.21-12.19.19:146][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.09.21-12.19.19:146][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.09.21-12.19.19:146][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2017.09.21-12.19.19:146][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 640
+[2017.09.21-12.19.19:146][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2017.09.21-12.19.19:146][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2017.09.21-12.19.19:146][  0]LogRHI: Texture pool is 679 MB (70% of 970 MB)
+[2017.09.21-12.19.19:163][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.21-12.19.19:388][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.09.21-12.19.19:524][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Intermediate/Shaders/WorkingDirectory/7820/).
+[2017.09.21-12.19.19:525][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ladmin/AppData/Local/Temp/UnrealShaderWorkingDir/A78A6E3446413C8EE7DEC4B7EB3ABE37/'.
+[2017.09.21-12.19.19:537][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.21-12.19.25:434][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.21-12.19.25:733][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.21-12.19.26:040][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.21-12.19.26:347][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.21-12.19.26:678][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.21-12.19.26:968][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.21-12.19.27:265][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.21-12.19.27:561][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.21-12.19.27:838][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.21-12.19.28:176][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.21-12.19.28:468][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.21-12.19.28:760][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.21-12.19.29:042][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.21-12.19.29:331][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.21-12.19.29:629][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.21-12.19.30:186][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.21-12.19.30:186][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.21-12.19.30:489][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.21-12.19.31:041][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.21-12.19.31:087][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.21-12.19.31:396][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.21-12.19.31:711][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.21-12.19.32:045][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.21-12.19.32:392][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.21-12.19.32:392][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.21-12.19.35:114][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.21-12.19.36:072][  0]LogDerivedDataCache: Loaded boot cache 0.94s 93MB C:/Users/ladmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.21-12.19.36:073][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ladmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.21-12.19.36:073][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.21-12.19.36:073][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.21-12.19.36:073][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.21-12.19.36:073][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.21-12.19.36:140][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.21-12.19.36:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ladmin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.21-12.19.36:228][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.21-12.19.36:243][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.21-12.19.36:310][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-12.19.36:310][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.21-12.19.45:586][  0]LogAssetRegistry: FAssetRegistry took 0.0399 seconds to start up
+[2017.09.21-12.19.48:351][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.21-12.19.48:521][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.21-12.19.53:160][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.21-12.19.53:483][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.21-12.19.53:483][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.21-12.19.53:483][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.21-12.19.53:483][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.21-12.19.53:483][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.21-12.19.56:039][  0]LogNetVersion: GitTest , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3232388464)
+[2017.09.21-12.19.57:847][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.182502 seconds
+[2017.09.21-12.19.57:868][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.21-12.19.57:868][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.21-12.19.57:868][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.21-12.19.57:952][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.21-12.20.22:537][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.21-12.20.22:594][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.21-12.20.26:334][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.21-12.20.28:444][  0]SourceControl: ソースコントロールは無効です
+[2017.09.21-12.20.28:444][  0]SourceControl: ソースコントロールは無効です
+[2017.09.21-12.20.28:758][  0]SourceControl: ソースコントロールは無効です
+[2017.09.21-12.20.29:036][  0]SourceControl: ソースコントロールは無効です
+[2017.09.21-12.20.32:084][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.21-12.20.33:441][  0]LogOcInput: OculusInput pre-init called
+[2017.09.21-12.20.34:939][  0]LogEngine: Initializing Engine...
+[2017.09.21-12.20.34:969][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.21-12.20.35:337][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.21-12.20.35:337][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.21-12.20.36:332][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.21-12.20.36:439][  0]LogInit: No audio devices found!
+[2017.09.21-12.20.36:617][  0]LogDerivedDataCache: Saved boot cache 0.18s 93MB C:/Users/ladmin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.21-12.20.36:624][  0]LogInit: Texture streaming: Enabled
+[2017.09.21-12.20.36:854][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.21-12.20.39:460][  0]LogInit: Transaction tracking system initialized
+[2017.09.21-12.20.41:692][  0]BlueprintLog: New page: エディタの読み込み
+[2017.09.21-12.20.48:633][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2017.09.21-12.20.53:111][  0]LogConsoleResponse: Display: 
+[2017.09.21-12.20.56:458][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ladmin/Desktop/UE_GitTest/GitTest/Content/' took 0.10s
+[2017.09.21-12.20.56:458][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.21-12.20.56:458][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.21-12.20.56:601][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.21-12.21.04:140][  0]SourceControl: ソースコントロールは無効です
+[2017.09.21-12.21.04:586][  0]LogSlate: Took 0.196796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.21-12.21.05:101][  0]LogSlate: Took 0.514531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.21-12.21.35:649][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2017.09.21-12.21.35:697][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.21-12.21.35:719][  0]LightingResults: New page: ライティングのビルド
+[2017.09.21-12.21.36:078][  0]MapCheck: New page: マップをチェック
+[2017.09.21-12.21.36:078][  0]LightingResults: New page: <何も選択されていません>
+[2017.09.21-12.21.36:727][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.21-12.21.36:854][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.21-12.21.36:882][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.21-12.21.37:436][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 554.509ミリ秒かかりました。
+[2017.09.21-12.21.37:451][  0]LogFileHelpers: Loading map 'Template_Default' took 1.762
+[2017.09.21-12.21.38:066][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_197c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_1300_0///####STATCAT_Advanced####
+[2017.09.21-12.21.38:066][  0]LogCollectionManager: Loaded 0 collections in 0.001323 seconds
+[2017.09.21-12.21.38:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ladmin/Desktop/UE_GitTest/GitTest/Saved/Collections/' took 0.01s
+[2017.09.21-12.21.38:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ladmin/Desktop/UE_GitTest/GitTest/Content/Developers/ladmin/Collections/' took 0.01s
+[2017.09.21-12.21.38:402][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ladmin/Desktop/UE_GitTest/GitTest/Content/Collections/' took 0.01s
+[2017.09.21-12.21.38:402][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.21-12.21.38:415][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2386 classes and 500 folders.
+[2017.09.21-12.21.38:728][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.09.21-12.21.39:942][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.21-12.21.40:229][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.21-12.21.40:616][  0]LogSlate: Took 0.011058 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.21-12.21.40:647][  0]LogSlate: Took 0.009603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.21-12.21.40:984][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2017.09.21-12.21.41:730][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.09.21-12.21.41:730][  0]LogLoad: (Engine Initialization) Total time: 167.69 seconds
+[2017.09.21-12.21.41:730][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.21-12.21.41:730][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.21-12.21.41:730][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.21-12.21.41:830][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.21-12.21.41:907][  0]LogSlate: Took 0.028129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.21-12.21.42:031][  2]LogAssetRegistry: Asset discovery search completed in 116.4592 seconds
+[2017.09.21-12.21.42:033][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.21-12.21.42:033][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000092 seconds (updated 0 objects)
+[2017.09.21-12.21.46:307][239]LogTemp: Repeating last play command: 選択ビューポート
+[2017.09.21-12.21.46:483][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-12.21.46:484][239]PIE: New page: PIEセッション: Untitled_1 (2017/09/22 6:21:46)
+[2017.09.21-12.21.46:484][239]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.21-12.21.46:502][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018158s)
+[2017.09.21-12.21.46:503][239]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.21-12.21.46:503][239]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2017.09.21-12.21.46:503][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.019344s)
+[2017.09.21-12.21.46:652][239]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
+[2017.09.21-12.21.46:751][239]LogLoad: Game class is 'Game_C'
+[2017.09.21-12.21.46:755][239]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.21-21.21.46
+[2017.09.21-12.21.46:767][239]LogWorld: Bringing up level for play took: 0.013529
+[2017.09.21-12.21.47:294][239]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.09.21-12.21.47:417][239]PIE: /Temp/UEDPIE_0_Untitled_1 0.783のプレイ イン エディタの開始時間
+[2017.09.21-12.22.37:354][ 51]LogSlate: Took 0.024036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.21-12.22.37:628][ 51]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2017.09.21-12.22.37:638][ 51]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
+[2017.09.21-12.22.37:833][ 51]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
+[2017.09.21-12.22.37:878][ 51]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
+[2017.09.21-12.22.37:959][ 51]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.22.38:011][ 51]LogSlate: Took 0.023853 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.21-12.22.38:983][ 52]LogSlate: Took 0.040816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.21-12.22.50:323][440]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.09.21-12.22.50:323][440]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.21-12.22.50:323][440]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.21-12.23.07:669][ 73]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.07:747][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.07:781][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.07:825][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.07:862][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.07:894][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.07:934][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.07:968][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:001][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:056][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:093][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:126][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:161][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:202][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:234][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:271][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:314][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:354][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:386][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.08:959][ 93]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.21-12.23.15:636][359]LogTemp: Repeating last play command: 選択ビューポート
+[2017.09.21-12.23.15:654][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.21-12.23.15:655][359]PIE: New page: PIEセッション: Untitled_1 (2017/09/22 6:23:15)
+[2017.09.21-12.23.15:655][359]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.09.21-12.23.15:660][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004750s)
+[2017.09.21-12.23.15:661][359]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.21-12.23.15:661][359]LogPlayLevel: PIE: World Init took: (0.001241s)
+[2017.09.21-12.23.15:661][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006378s)
+[2017.09.21-12.23.15:711][359]LogLoad: Game class is 'Game_C'
+[2017.09.21-12.23.15:713][359]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.09.21-21.23.15
+[2017.09.21-12.23.15:713][359]LogWorld: Bringing up level for play took: 0.001536
+[2017.09.21-12.23.15:717][359]PIE: /Temp/UEDPIE_0_Untitled_1 -0.923のプレイ イン エディタの開始時間
+[2017.09.21-12.23.37:591][ 52]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
+[2017.09.21-12.23.37:672][ 52]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
+[2017.09.21-12.23.37:845][ 52]LogMaterial: Missing cached shader map for material Skinman1, compiling. 
+[2017.09.21-12.23.37:958][ 52]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Skinman1, compiling. 
+[2017.09.21-12.23.44:191][ 52]TextureStreamingBuild: Display: Compiling optional shaders took 6.245 seconds.
+[2017.09.21-12.23.50:674][ 52]LogSlate: Took 0.006242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.21-12.23.50:809][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Skinman1" FILE="../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/Skinman1.uasset" SILENT=true
+[2017.09.21-12.23.50:990][ 52]LogSavePackage: Save=62.77ms
+[2017.09.21-12.23.50:990][ 52]LogSavePackage: Moving '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Saved/Skinman1D9561F0B43D0D87FEE52DEA27F775D15.tmp' to '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/Skinman1.uasset'
+[2017.09.21-12.23.51:000][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/Skinman1.uasset
+[2017.09.21-12.23.51:632][ 53]Cmd: QUIT_EDITOR
+[2017.09.21-12.23.51:782][ 53]LogExit: Preparing to exit.
+[2017.09.21-12.23.52:814][ 53]LogDirectoryWatcher: A directory notification for 'C:/Users/ladmin/Desktop/UE_GitTest/GitTest/Content/' was aborted.
+[2017.09.21-12.23.52:844][ 53]LogExit: Editor shut down
+[2017.09.21-12.23.52:848][ 53]LogExit: Transaction tracking system shut down
+[2017.09.21-12.23.52:977][ 53]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.21-12.23.52:977][ 53]LogDirectoryWatcher: A directory notification for '../../../../../../Users/ladmin/Desktop/UE_GitTest/GitTest/Content/' was aborted.
+[2017.09.21-12.23.52:977][ 53]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.21-12.23.52:977][ 53]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.21-12.23.52:977][ 53]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.21-12.23.53:072][ 53]LogExit: Object subsystem successfully closed.
+[2017.09.21-12.23.53:110][ 53]LogD3D11RHI: Shutdown
+[2017.09.21-12.23.53:110][ 53]LogD3D11RHI: CleanupD3DDevice
+[2017.09.21-12.23.53:229][ 53]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.21-12.23.53:271][ 53]LogModuleManager: Shutting down and abandoning module MaterialEditor (534)
+[2017.09.21-12.23.53:271][ 53]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.09.21-12.23.53:271][ 53]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.21-12.23.53:271][ 53]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.21-12.23.53:272][ 53]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.21-12.23.53:272][ 53]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.21-12.23.53:273][ 53]LogDirectoryWatcher: A directory notification for 'C:/Users/ladmin/Desktop/UE_GitTest/GitTest/Content/Collections/' was aborted.
+[2017.09.21-12.23.53:273][ 53]LogDirectoryWatcher: A directory notification for 'C:/Users/ladmin/Desktop/UE_GitTest/GitTest/Content/Developers/ladmin/Collections/' was aborted.
+[2017.09.21-12.23.53:273][ 53]LogDirectoryWatcher: A directory notification for 'C:/Users/ladmin/Desktop/UE_GitTest/GitTest/Saved/Collections/' was aborted.
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.21-12.23.53:273][ 53]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.21-12.23.53:274][ 53]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.21-12.23.53:274][ 53]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.21-12.23.53:274][ 53]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.21-12.23.53:274][ 53]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.21-12.23.53:274][ 53]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.21-12.23.53:274][ 53]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.21-12.23.53:274][ 53]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.21-12.23.53:274][ 53]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.21-12.23.53:275][ 53]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.21-12.23.53:928][ 53]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.21-12.23.53:929][ 53]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.21-12.23.53:991][ 53]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.21-12.23.53:991][ 53]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.21-12.23.53:991][ 53]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.21-12.23.53:991][ 53]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.21-12.23.53:991][ 53]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.21-12.23.53:992][ 53]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.21-12.23.53:992][ 53]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.21-12.23.54:016][ 53]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.21-12.23.54:016][ 53]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.21-12.23.54:016][ 53]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.21-12.23.54:017][ 53]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.21-12.23.54:018][ 53]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.21-12.23.54:047][ 53]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.21-12.23.54:047][ 53]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.21-12.23.54:047][ 53]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.21-12.23.54:047][ 53]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.21-12.23.54:047][ 53]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.21-12.23.54:047][ 53]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.21-12.23.54:047][ 53]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.21-12.23.54:047][ 53]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.21-12.23.54:048][ 53]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.21-12.23.54:049][ 53]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.21-12.23.54:050][ 53]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.21-12.23.54:050][ 53]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.21-12.23.54:050][ 53]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.21-12.23.54:053][ 53]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.21-12.23.54:053][ 53]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.21-12.23.54:053][ 53]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.21-12.23.54:053][ 53]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.21-12.23.54:053][ 53]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.21-12.23.54:053][ 53]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.21-12.23.54:053][ 53]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.21-12.23.54:053][ 53]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.21-12.23.54:153][ 53]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.21-12.23.54:253][ 53]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.21-12.23.54:253][ 53]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.21-12.23.54:253][ 53]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.21-12.23.54:253][ 53]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.21-12.23.54:253][ 53]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.21-12.23.54:253][ 53]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.21-12.23.54:254][ 53]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.21-12.23.54:254][ 53]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.21-12.23.54:254][ 53]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.21-12.23.54:254][ 53]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.21-12.23.54:275][ 53]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.21-12.23.54:278][ 53]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.21-12.23.54:278][ 53]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2017.09.21-12.23.54:279][ 53]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.21-12.23.54:280][ 53]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.21-12.23.54:378][ 53]LogDerivedDataCache: Shutdown
+[2017.09.21-12.23.54:378][ 53]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.21-12.23.54:378][ 53]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.21-12.23.54:378][ 53]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.21-12.23.54:378][ 53]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.21-12.23.54:378][ 53]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.21-12.23.54:378][ 53]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.21-12.23.54:378][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.21-12.23.54:378][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.21-12.23.54:379][ 53]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.21-12.23.54:380][ 53]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.21-12.23.54:380][ 53]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.21-12.23.54:380][ 53]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.21-12.23.54:380][ 53]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.21-12.23.54:380][ 53]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.21-12.23.54:380][ 53]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.21-12.23.54:380][ 53]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.21-12.23.54:380][ 53]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.21-12.23.54:380][ 53]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4E5D4244-4014-6FBD-0783-C3B09BF9ADDD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=36b3a6584082210969ed9eb228556cc2%7Ca474f55d965c445bab3f3cdbdf88914e%7Cdcee203a-225e-4355-9bd5-e87bb04e3525&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.21-12.23.54:410][ 53]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.21-12.23.54:411][ 53]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.21-12.23.54:411][ 53]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.21-12.23.54:412][ 53]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.21-12.23.54:412][ 53]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.21-12.23.54:412][ 53]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.21-12.23.54:412][ 53]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.21-12.23.54:412][ 53]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.21-12.23.54:414][ 53]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.21-12.23.54:417][ 53]LogExit: Exiting.
+[2017.09.21-12.23.54:434][ 53]Log file closed, 09/21/17 21:23:54
